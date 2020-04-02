@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Webagency, ses services, ses projets et son formulaire de contact. Entreprise de developpement web"> <!--Pour le referencement -->
+        <script src="https://kit.fontawesome.com/6b5e7c5ec0.js" crossorigin="anonymous"></script> <!-- Pour ajouter le kit FontAwesome -->
+        <title>WEBAGENCY : L'agence de tous vos projets !</title>
+    </head>
+    <body id="slider"> <!-- Pour faire en sorte que le slider remonte a la bonne hauteur -->
+        <div id="Accueil"></div>  <!-- Ancre Accueil-->
+        <header class="flex" > 
+            <div class="logo">
+                <a href="#Accueil"><img src="images/logo.png" alt="Logo Web Agency"/></a>
+            </div>
+            <div id="burger"><a href="#menu"><span><i class="fas fa-bars"></i></span></a></div> <!--Import icone menu burger -->
+            <nav>
+                <ul id="menu">
+                    <li class="croix_burger" title="croix"><a href="#burger"><span><i class="fas fa-times"></i></span></a></li> <!-- Import croix menu Burger -->
+                    <li><div class="li flex"><a href="#Accueil">Accueil</a></div></li>
+				    <li><div class="li flex"><a href="#Services">Services</a></div></li>
+				    <li><div class="li flex"><a href="#Portfolio">Portfolio</a></div></li>
+				    <li><div class="li flex"><a href="#Contact">Contact</a></div></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="petite_fille">
+            <div class=conteneur>
+                <div class=position_fleche>
+                    <a href="#Accueil"><span class="fleche_gauche"><i class="fas fa-chevron-circle-left"></i></span></a> <!--Import depuis Fontawesome -->
+                </div>
+                <div class="descrip_petite_fille flex">
+                    <div><h1><span class=h1_bleu>WEBAGENCY </span>: L'AGENCE DE TOUS VOS PROJETS !</h1></div>
+                    <div class="pdesc"><p>Vous avez un projet web ? La Webagency vous aide à le réaliser !</p></div>
+                    <div><a href="#" class="bouton_bleu flex">Plus d'infos</a></div>
+                </div>
+                <div class=position_fleche>
+                     <a href="#slider"><span class="fleche_droite"><i class="fas fa-chevron-circle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="ligne_bleue"></div>
+			<div class="fond_gris"></div>
+        </section>
+        <div id="Services"></div><!-- Ancre nos services -->
+        <section>
+            <h2>NOS SERVICES</h2>  
+            <div class="ligne flex">________<div class="point_fond"><div class="point_bleu"></div></div>________</div> <!--Pour creer la ligne avec le point entre -->
+            <div class="text_pres"><p>Parce que chaque projet est unique, nos services sur-mesure répondrons à coup sûr à vos necessités, et ce, de manière professionnelle, claire et précise !</p></div>
+            <div class="ordi_et_icones flex"> <!-- Double classe pour ajouter flex -->
+                <div class="ordi">
+                    <img src="images/main-feature.png" alt="image d'un ordinateur MAC">
+                </div>
+                <div class="partie_icones"><!-- Div qui contient le tout -->
+                    <div class="parag_icone flex"> <!-- Div qui va englober une div pour mon texte et une div pour les icones -->
+                        <div> <!-- Div qui contient mes deux icones-->
+                            <div class="icone flex"><i class="fas fa-chart-line"></i></div> <!-- Import icone Chart Line depuis FontAwesome-->
+                            <span class="icone_point"><i class="fas fa-circle"></i></span> <!-- Import de l'icone du point -->
+                        </div>
+                        <div class="text_icone"> <!--Div qui contient mon texte a côté des icones -->
+                          <h3>UX Design</h3> <p>User Experience Design ou Design de l’Expérience Utilisateur dans la langue de molière, est un rôle qui a pour but de rendre l'experience utilisateur la plus intuitive possible. Et c'est un atout considérable pour votre marketing web.</p> 
+                        </div>
+                    </div>
+                    <div class="parag_icone flex">
+                        <div>
+                            <div class="icone flex"><i class="fas fa-cubes"></i></div><!-- Import icone Cubes depuis FontAwesome-->
+                            <span class="icone_point"><i class="fas fa-circle"></i></span>
+                        </div>
+                        <div class="text_icone">
+                            <h3>UI Design</h3> <p>Contrairement à l'UX Design, l'UI Design (ou interface utilisateur) son rôle est destiné à concevoir l'aspect et la conception graphique. Encore une fois, c'est un atout considérable pour rendre votre projet web attrayant.</p>
+                        </div>
+                    </div>
+                    <div class="parag_icone flex">
+                        <div>
+                            <div class="icone flex"><i class="fas fa-chart-pie"></i></div><!-- Import icone Chart Pie depuis FontAwesome -->
+                            <span class="icone_point"><i class="fas fa-circle"></i></span>
+                        </div>
+                        <div class="text_icone">
+                            <h3>SEO</h3> <p> SEO (pour search engine optimization), est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="Portfolio" class="comble"></div><!--Ancre Portefolio avec la classe comble pour faire arriver l'ancre au bon endroit -->
+        <section class="portfolio">
+            <h2 class="projet"><br/>NOS PROJETS</h2>
+            <div class="ligne flex">________<div class="point_fond"><div class="point_bleu"></div></div>________</div>
+            <div class="text_pres"><p>Pas encore convaincu ? Voici une liste de nos différents projets pour des entreprises qui nous on fait confiance.</p></div>
+            <div class="menu_port flex"><!--Div qui va contenir mes 4 cases du portfolio-->
+                <div class="carre flex" title="carre_ok"><span class="fleche_bas" title="fleche_ok"><i class="fas fa-sort-down"></i></span><div>All Work</div></div><!--Import icone fleche vers le bas depuis FontAwesome + les Title pour pouvoir activer le carre de base -->
+                <div class="carre flex"><span class="fleche_bas"><i class="fas fa-sort-down"></i></span><div>Creative</div></div>
+                <div class="carre flex"><span class="fleche_bas"><i class="fas fa-sort-down"></i></span><div>Coorporate</div></div>
+                <div class="carre flex"><span class="fleche_bas"><i class="fas fa-sort-down"></i></span><div>Portfolio</div></div>
+            </div>
+            <div class="cat_images flex"> <!-- Conteneur de toutes mes images -->
+                <figure class="images"> <!-- Chaque Div contient une image et son hoover -->
+                    <img src="images/portfolio/01.jpg" alt="photo de lunettes avec nez">
+                    <figcaption class="titre">Incognito<br/><span class="titre_infos">Le must-have du déguisement.</span>
+                    <span class="oeil"><i class="fas fa-eye"></i></span></figcaption>
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/02.jpg" alt="photo d'un lapin dessiné">
+                    <figcaption class="titre">Lapi-Lapin<br/><span class="titre_infos">L'art qui se veut croquant !</span>
+                    <span class="oeil"><i class="fas fa-eye"></i></span> </figcaption> 
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/03.jpg" alt="photo d'une marque de vêtement">
+                    <figcaption class="titre">Pompadour streetwear<br/><span class="titre_infos">La mode à en faire pâlir la marquise.</span>
+                    <span class="oeil"><i class="fas fa-eye"></i></span></figcaption> 
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/04.jpg" alt="photo d'une feuille avec logo">
+                    <figcaption class="titre">Inspiration Logo<br/><span class="titre_infos">Le meilleur pour vos logo pro !</span>
+                    <span class="oeil"><i class="fas fa-eye"></i></span></figcaption>
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/05.jpg" alt="photo de sacs de shopping">
+                    <figcaption class="titre">Envie Shopping<br/><span class="titre_infos">La référence du shopping.</span>
+                    <span class="oeil"><i class="fas fa-eye"></i></span></figcaption>
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/06.jpg" alt="photo d'un tableau style asiatique">
+                    <figcaption class="titre">Le Japon imaginaire<br/><span class="titre_infos">Une exposition à ne pas manquer !</span><span class="oeil"><i class="fas fa-eye"></i></span></figcaption> 
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/07.jpg" alt="logo fusée déssiné">
+                    <figcaption class="titre">Fuze Blog<br/><span class="titre_infos">Le blog qui ne perd pas son temps.</span><span class="oeil"><i class="fas fa-eye"></i></span></figcaption> 
+                </figure>
+                <figure class="images"> 
+                    <img src="images/portfolio/08.jpg" alt="photo d'un bureau avec fournitures">
+                    <figcaption class="titre">Desktop Stuff<br/><span class="titre_infos">Le pack complet pour votre bureau.</span><span class="oeil"><i class="fas fa-eye"></i></span></figcaption> 
+                </figure>
+            </div>
+        </section>
+        <section class="contact flex" id="Contact">
+            <div class="map_bleu">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221424608019!2d2.347636915518091!3d48.873055307628256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1569498493499!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="formulaire flex">
+                <form method="post" action="traitement.php">
+                    <h4><span class="contact_titre">Contact Info</span><span class="contact_web"><br/>WebAgency SAS<br/></span><span class="contact_adresse">25 Rue D'Hauteville 75010 Paris<br/>Tel : 01 02 03 04 05</span></h4>
+                    <input class="ligne_f" type="text" name="Name" placeholder="Name">
+                    <input class="ligne_f" type="email" name="email" placeholder="Email">
+                    <input class="ligne_f" type="text" name="Subject" placeholder="Subject">
+                    <textarea class="text_area" name="Message" placeholder="Message"></textarea>
+                    <a href="#Send" class="bouton_formulaire flex">Send Message</a>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
